@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<head>
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles\about.css' %}">
+</head>
+<body>
+    <div class="introduction">
+        <div class="row">
+            <div class="col-4" id="img-intro">
+                <span></span>
+            </div>
+            <div class="col-7" id="text-intro">
+                <p class="texts-intro">
+                    We understand the hardship in being alone and unsure of yourself!
+                </p>
+                <p class="texts-paragraph-intro">
+                    We can provide the community that feels like home. <br>
+                    Not only are we after your particpation in helping others, but also in your own wellbeing. <br>
+                    We also dont care what negativity your musculinity or feminity screams against mental help. <br>
+                    We just care a lot....!
+                </p>
+            </div>
+            <div class="col-1">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <span></span>
+            </div>
+            <div class="col-4">
+                <button type="button" class="btn btn-dark">Join us</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <span></span>
+            </div>
+            <div class="col-2">
+                <div class="link">
+                    <a href="{% url 'stories' %}">
+                        <p class="linky">
+                            explore more
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+{% endblock %}
