@@ -12,4 +12,29 @@
 body{
   background-image: url("/static/images/843b47138412313.621d2373b5cb4.jpg");
   background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+.text{
+  font-size: 3vw;
+  font-weight: 900;
+  color: black;
+  padding: auto;
+  text-align: center;
+  margin-top: 15vw;
+}
+.sub-text{
+  padding: auto;
+  text-align: center;
+  font-weight: 450;
+}
+.button{
+  padding: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.btn{
+  background-color: black;
+  color: rgb(127, 159, 63);
 }
