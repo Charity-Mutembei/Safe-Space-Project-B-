@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-item{
+    padding-right: 2.7vw;
+    padding-left: 4.5vw;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 2vw;
+}
+#navbarDropdown{
+    font-weight: 600;
+    font-size: 1.15vw;
+}
+.btn{
+    border-radius: 1vw;
+    width: 8vw;
+}
